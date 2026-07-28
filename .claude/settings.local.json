@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(node -e \"const p=require\\('./node_modules/next/package.json'\\); console.log\\('next', p.version\\); const r=require\\('./node_modules/react/package.json'\\); console.log\\('react', r.version\\); const f=require\\('./node_modules/framer-motion/package.json'\\); console.log\\('framer-motion', f.version\\); const l=require\\('./node_modules/lenis/package.json'\\); console.log\\('lenis', l.version\\)\")",
+      "Bash(npm run *)",
+      "Bash(git init *)",
+      "Bash(git symbolic-ref *)",
+      "Bash(git check-ignore *)",
+      "Bash(git add *)",
+      "Bash(git config *)",
+      "Bash(echo \"name=$\\(git config user.name || echo '\\(unset\\)'\\) email=$\\(git config user.email || echo '\\(unset\\)'\\)\")"
+    ]
+  }
+}
